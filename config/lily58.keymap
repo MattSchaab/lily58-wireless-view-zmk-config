@@ -9,7 +9,19 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        gui-l {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <50 51>;
+        };
+
+        gui-r {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <56 57>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
