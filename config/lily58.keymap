@@ -24,12 +24,14 @@
 
         mac_mode {
             bindings = <&tog 3>;
-            key-positions = <42 52 43>;
+            key-positions = <42 43>;
+            layers = <0>;
         };
 
         win_mode {
             bindings = <&tog 0>;
-            key-positions = <42 43 55>;
+            key-positions = <42 43>;
+            layers = <3>;
         };
     };
 
